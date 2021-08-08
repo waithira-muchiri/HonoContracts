@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+
+background-image: url(contract.jpg);
+background-position: center;
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size:cover;
+height: 100%;
+
+    
+}
+.logo{
+    padding: 0;
+    
+    position: absolute;
+    top: 0;
+    left: 35%;
+}
+.form-div {
+    margin-top: 1em;
+    opacity: 1;
+    top: 100px;
+    border: 1px solid #e0e0e0;
+    background-color: rgba(0,0,0, 0.7); }
+.form-div h2{
+    padding: 0.5em;
+}
+
+ input[type=text] ,input[type=date] ,input[type=email]{
+  width: 100%;
+  padding: 8px 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+.form-div label{
+    color: white;
+    
+}
+
+#y{
+    padding: 8px 12px;
+}
+input[type=radio{
+  padding: 8px 12px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  
+}]
+
+@media screen and (max-width: 600px) {
+  .logo{
+      left: 10%;
+      
+  }
+}
